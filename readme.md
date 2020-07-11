@@ -19,4 +19,5 @@ Posts objects with type `as:Note` or `as:Article`.
 
 ## Todo
 
-* [ ] ...
+* [ ] Fetch posts from endpoint to edit
+* [ ] Save drafts in local storage
