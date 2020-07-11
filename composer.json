@@ -1,0 +1,22 @@
+{
+    "name": "rhiaro/no-ceremonies-are-necessary",
+    "version": "0.0.1",
+    "license": "MIT",
+    "require": {
+      "rmccue/requests": ">=1.0",
+      "easyrdf/easyrdf": "*",
+      "ml/json-ld": "1.*"
+    },
+    "autoload": {
+      "files": [
+          "src/no-ceremonies-are-necessary.php",
+          "src/helpers.php"
+        ]
+    },
+    "authors": [
+      {
+        "name": "Amy Guy",
+        "homepage": "https://rhiaro.co.uk/"
+      }
+    ]
+}
