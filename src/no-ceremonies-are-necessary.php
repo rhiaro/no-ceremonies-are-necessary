@@ -56,6 +56,10 @@ function make_payload($form_request){
     $name = trim($form_request["name"]);
     $content = trim($form_request["content"]);
 
+    if($name == ""){
+        unset($name);
+    }
+
     if(isset($name)){
         $type = "as:Article";
     }else{
