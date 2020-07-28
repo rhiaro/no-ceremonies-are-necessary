@@ -3,7 +3,11 @@ session_start();
 require 'vendor/autoload.php';
 $ns = rhiaro\ERH\ns();
 
-$tz = rhiaro\ERH\get_timezone_from_rdf("https://rhiaro.co.uk/tz");
+try{
+    $tz = rhiaro\ERH\get_timezone_from_rdf("https://rhiaro.co.uk/tz");
+}catch(exception $e){
+    $tz = "Europe/London";
+}
 date_default_timezone_set($tz);
 
 $tags = array(
