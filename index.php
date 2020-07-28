@@ -15,7 +15,7 @@ $tags = array(
     "week in review" => "https://rhiaro.co.uk/tags/week+in+review",
     "cooplife" => "https://rhiaro.co.uk/tags/cooplife",
     "ods" => "https://rhiaro.co.uk/tags/ods",
-    "crochet" => "https://rhiaro.co.uk/tags/",
+    "crochet" => "https://rhiaro.co.uk/tags/crochet",
 );
 
 if(isset($_POST['record'])){
